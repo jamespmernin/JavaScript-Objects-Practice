@@ -11,7 +11,7 @@ Create your own JavaScript object representing your favorite movie.
   > Example:
 
   > ```javascript
-  > var blade = {
+  > const blade = {
   >   title: 'Blade',
   >   director: 'Stephen Norrington',
   >   actors: ['Wesley Snipes', 'Stephen Dorff', 'Kris Kristofferson'],
