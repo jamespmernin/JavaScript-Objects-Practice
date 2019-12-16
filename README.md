@@ -33,7 +33,7 @@ Copy and paste each of the JavaScript snippets into your JavaScript file.
 
 ### Part 1
 ```javascript
-snakewaterMontana = {
+const snakewaterMontana = {
   paleontologist: "Dr. Alan Grant",
   depth: "10 meters",
   specimen: "Velociraptor"
@@ -46,7 +46,7 @@ snakewaterMontana = {
 ### Part 2
 ```javascript
 
-  nicaragua = {
+  const nicaragua = {
     depth: "200 meters",
     annual_budget: 1500000,
     specimens: [
@@ -66,7 +66,7 @@ snakewaterMontana = {
 
 ### Part 3
 ```javascript
-hammondsMines = {
+const hammondsMines = {
   buenos_aires: {
     depth: "400 meters",
     annual_budget: 1000000,
