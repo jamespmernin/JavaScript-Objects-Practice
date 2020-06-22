@@ -85,7 +85,7 @@ const hammondsMines = {
 
 1.  Access the depth of John Hammond's mine in Mexico, store the depth of the Mexican mine into an appropriately named variable.
 
-2.  Access and the annual budget for Hammond's mine in Buenos Aires, store the annual budget for Hammond's mine in Buenos Aires.
+2.  Access the annual budget for Hammond's mine in Buenos Aires, store the annual budget for Hammond's mine in Buenos Aires.
 
 3.  Access and console log the dinosaur DNA specimens found in Buenos Aires.
 
