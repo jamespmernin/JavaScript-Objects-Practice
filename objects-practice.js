@@ -97,24 +97,22 @@ console.log(para);
 let hasMexicoMine = hammondsMines.hasOwnProperty("mexico");
 
 // 9. Log each depth
-for (const x in hammondsMines) {
-  console.log(hammondsMines[x].depth);
+for (let key in hammondsMines) {
+  console.log(hammondsMines[key].depth);
 }
 
 // 10. totalAnnualBudget
 let totalAnnualBudget = 0;
-let y;
-for (y in hammondsMines) {
-  totalAnnualBudget += hammondsMines[y].annualBudget;
+for (key in hammondsMines) {
+  totalAnnualBudget += hammondsMines[key].annualBudget;
 }
 console.log(`The annual budget is $${totalAnnualBudget}`);
 
 // 11. allSpecimens
 let allSpecimens = [];
-let z;
-for (z in hammondsMines) {
-  let w = hammondsMines[z].specimens;
-  for (const element of w)
+for (key in hammondsMines) {
+  let s = hammondsMines[key].specimens;
+  for (const element of s)
     allSpecimens.push(element);
 }
 console.log(allSpecimens);
