@@ -95,7 +95,6 @@ console.log(para);
 
 // 8. Check for Mexico mine
 let hasMexicoMine = hammondsMines.hasOwnProperty("mexico");
-console.log(hasMexicoMine);
 
 // 9. Log each depth
 for (const x in hammondsMines) {
